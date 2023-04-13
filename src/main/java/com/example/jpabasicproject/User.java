@@ -1,10 +1,6 @@
 package com.example.jpabasicproject;
-import org.springframework.data.annotation.Id;
-
-
-
+@Entity
 public class User {
-    @Id
      int userId;
     String name;
     int age;
